@@ -1,6 +1,6 @@
 import streamlit as st
 import leafmap.foliumap as leafmap
-from streamlit_player import st_player
+
 
 
 def app():
