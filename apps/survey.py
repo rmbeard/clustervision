@@ -3,7 +3,7 @@ import streamlit as st
 
 def app():
     st.title("User Survey")
-    st.subheader("This page will provide a mechaism out fill in a survey form")
+    st.subheader("This page will provide a mechanism to fill in a user survey form")
     st.markdown("""
         <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc6vA13BVVikPh3dKJpv37PUdvNL9ifkFUg4FDoiB0Kk3TwTw/viewform?embedded=true" width="700" height="520" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
        """, unsafe_allow_html=True)
